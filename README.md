@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi i'm mael and the "miel" is good for your throat
 
 <!--
 **maelemiel/maelemiel** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
