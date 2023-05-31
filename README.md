@@ -1,5 +1,5 @@
 ### Hi, I'm mael and the "miel" is good for your throat
-<img src="https://www.radiofrance.fr/s3/cruiser-production/2023/01/606aa74e-36fa-4a48-bf13-bd3239950f58/560x315_miel.jpg"></img>
+<img src="https://www.pngall.com/wp-content/uploads/11/Pure-Honey-PNG-Clipart.png"></img>
 <!--
 **maelemiel/maelemiel** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
