@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on [with-honey](https://github.com/maelemiel/with-honey)
 
-- 🌱 I’m currently learning **HMTL, CSS, JS*
+- 🌱 I’m currently learning **HMTL, CSS, JS**
 
 - ⚡ Fun fact **i like honey :)**
 
