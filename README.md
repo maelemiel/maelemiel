@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Maël</h1>
 <h3 align="center">A student at Epitech school</h3>
 
-- 🔭 I’m currently working on [with-honey](https://github.com/maelemiel/with-honey)
+- 🔭 I’m currently working on [Honey-Based-Recipes](https://github.com/maelemiel/Honey-Based-Recipes)
 
 - 🌱 I’m currently learning **HMTL, CSS, JS**
 
