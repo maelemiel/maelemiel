@@ -9,13 +9,18 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Generate Snake
         uses: Platane/snk@master
         with:
-          github_user_name: maelemiel
-          svg_output_path: dist/github-contribution-grid-snake.svg
-      - name: Push to GitHub
+          github_user_name: ${{ github.repository_owner }}
+          svg_output_path: github-contribution-grid-snake.svg
+
+      - name: Commit and Push
         uses: EndBug/add-and-commit@v9
         with:
           branch: main
           message: 'Update contribution snake'
+          add: 'github-contribution-grid-snake.svg'
