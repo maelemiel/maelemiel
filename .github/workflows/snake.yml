@@ -5,23 +5,27 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write  # Nécessaire pour pousser les changements
+
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          persist-credentials: false  # Critique pour les permissions
 
       - name: Generate Snake
         uses: Platane/snk@master
         with:
           github_user_name: ${{ github.repository_owner }}
-          svg_out_path: assets/github-snake.svg  # Chemin modifié
+          svg_out_path: assets/snake.svg
 
-      - name: Commit and Push
+      - name: Commit and push
         uses: EndBug/add-and-commit@v9
         with:
-          add: assets/github-snake.svg
-          message: 'Update snake'
-          new_branch: main  # 'branch' est devenu 'new_branch'
+          add: assets/snake.svg
+          message: 'Update github snake'
           github_token: ${{ secrets.GITHUB_TOKEN }}
