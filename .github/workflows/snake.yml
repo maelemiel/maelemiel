@@ -2,14 +2,14 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+    - cron: "0 0 * * *"  # Planifie l'exécution quotidienne à minuit
+  workflow_dispatch:  # Permet de déclencher manuellement le workflow
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write  # Nécessaire pour écrire dans le dépôt
 
     steps:
       - name: Checkout code
@@ -18,22 +18,22 @@ jobs:
           persist-credentials: false
 
       - name: Create assets folder
-        run: mkdir -p assets
+        run: mkdir -p assets  # Crée le dossier assets
 
       - name: Generate Snake
-        uses: Platane/snk@v3  # Version spécifique testée
+        uses: Platane/snk@v3  # Utilise la version 3 de l'action Platane/snk
         with:
-          github_user_name: ${{ github.repository_owner }}
-          svg_out_path: assets/snake.svg
+          github_user_name: ${{ github.repository_owner }}  # Utilise le propriétaire du dépôt
+          svg_out_path: assets/snake.svg  # Chemin de sortie pour le fichier SVG
 
       - name: Debug file check
         run: |
-          ls -la
-          ls -la assets/
+          ls -la  # Liste les fichiers dans le répertoire courant
+          ls -la assets/  # Liste les fichiers dans le dossier assets
 
       - name: Commit and Push
         uses: EndBug/add-and-commit@v9
         with:
-          add: assets/snake.svg
-          message: "Update snake"
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          add: assets/snake.svg  # Ajoute le fichier SVG généré
+          message: "Update snake"  # Message de commit
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # Utilise le token GitHub pour l'authentification
