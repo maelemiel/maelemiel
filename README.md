@@ -22,6 +22,8 @@
   <img src="https://github-readme-stats.vercel.app/api?username=maelemiel&show_icons=true&theme=radical&count_private=true&include_all_commits=true" alt="Stats"> 
   
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=maelemiel&theme=dark" alt="Streak">
+</p>
+<p align="center">
   <img src="https://tryhackme-badges.s3.amazonaws.com/maelemiel.png" alt="Your Image Badge" />
 </p>
 <p align="center">
