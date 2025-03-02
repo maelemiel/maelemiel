@@ -34,5 +34,4 @@
   ~ 🔒 🛡️ 💻 🐍 🔍 🧩 ⚡ 🛠️ ~
 </p>
 
-![snake gif](https://github.com/maelemiel/maelemiel/blob/output/github-contribution-grid-snake.svg)
-
+![Snake](assets/snake.svg)
