@@ -15,18 +15,25 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          persist-credentials: false  # Crucial!
+          persist-credentials: false
+
+      - name: Create assets folder
+        run: mkdir -p assets
 
       - name: Generate Snake
-        uses: Platane/snk@master
+        uses: Platane/snk@v3  # Version spécifique testée
         with:
           github_user_name: ${{ github.repository_owner }}
           svg_out_path: assets/snake.svg
-          svg_color_body: "#22D3F7"  # Optionnel: couleur du serpent
 
-      - name: Commit & Push
+      - name: Debug file check
+        run: |
+          ls -la
+          ls -la assets/
+
+      - name: Commit and Push
         uses: EndBug/add-and-commit@v9
         with:
           add: assets/snake.svg
-          message: "Update snake graphic"
+          message: "Update snake"
           github_token: ${{ secrets.GITHUB_TOKEN }}
