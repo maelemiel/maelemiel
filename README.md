@@ -1,5 +1,5 @@
 <h1 align="center">
-  Hi, I'm Maël
+  👋 Hi, I'm Maël
 </h1>
 
 
@@ -36,7 +36,7 @@
 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maelemiel/maelemiel/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maelemiel/maelemiel/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/maelemiel/maelemiel/output/github-snake.svg" />
 </picture>
