@@ -16,11 +16,12 @@ jobs:
         uses: Platane/snk@master
         with:
           github_user_name: ${{ github.repository_owner }}
-          svg_output_path: github-contribution-grid-snake.svg
+          svg_out_path: assets/github-snake.svg  # Chemin modifié
 
       - name: Commit and Push
         uses: EndBug/add-and-commit@v9
         with:
-          branch: main
-          message: 'Update contribution snake'
-          add: 'github-contribution-grid-snake.svg'
+          add: assets/github-snake.svg
+          message: 'Update snake'
+          new_branch: main  # 'branch' est devenu 'new_branch'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
