@@ -2,27 +2,31 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Run at midnight every day
-  workflow_dispatch:  # Allow manual triggering
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # Necessary permission for pushing changes
-      
+      contents: write
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      
+        with:
+          persist-credentials: false  # Crucial!
+
       - name: Generate Snake
         uses: Platane/snk@master
         with:
           github_user_name: ${{ github.repository_owner }}
           svg_out_path: assets/snake.svg
-      
-      - name: Push changes
-        uses: ad-m/github-push-action@master
+          svg_color_body: "#22D3F7"  # Optionnel: couleur du serpent
+
+      - name: Commit & Push
+        uses: EndBug/add-and-commit@v9
         with:
+          add: assets/snake.svg
+          message: "Update snake graphic"
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
