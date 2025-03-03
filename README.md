@@ -16,25 +16,6 @@
   ~ 🔒 🛡️ 💻 🐍 🔍 🧩 ⚡ 🛠️ ~
 </p>
 
-### 📊 Analytics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=maelemiel&show_icons=true&theme=radical&count_private=true&include_all_commits=true" alt="Stats"> 
-  
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=maelemiel&theme=dark" alt="Streak">
-</p>
-<p align="center">
-  <img src="https://tryhackme-badges.s3.amazonaws.com/maelemiel.png" alt="Your Image Badge" />
-</p>
-<p align="center">
-    <a href="https://wakatime.com/@fe5f1437-0451-4212-a9e3-fb93b8dc106b"><img src="https://wakatime.com/badge/user/fe5f1437-0451-4212-a9e3-fb93b8dc106b.svg" alt="Total time coded since Mar 31 2023" />      </a>
-</p>
-
-<p align="center">
-  ~ 🔒 🛡️ 💻 🐍 🔍 🧩 ⚡ 🛠️ ~
-</p>
-
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maelemiel/maelemiel/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maelemiel/maelemiel/output/github-snake.svg" />
