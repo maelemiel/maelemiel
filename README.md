@@ -71,18 +71,7 @@
 ---
 
 <div align="center">
-  
-  ```ascii
-  ┌─────────────────────────────────────────────────────────────────┐
-  │                     💫 Thanks for visiting! 💫                   │
-  │                                                                │
-  │              "The best way to predict the future               │
-  │                   is to create it." - Alan Kay                 │
-  └─────────────────────────────────────────────────────────────────┘
-  ```
-  
-  <img src="https://komarev.com/ghpvc/?username=maelemiel&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile Views" />
-  
+
   <img width="100%" height="120" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer" alt="Footer" />
   
 </div>
