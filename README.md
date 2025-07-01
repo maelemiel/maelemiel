@@ -1,11 +1,13 @@
 <div align="center">
-  <img width="100%" height="300" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=300&section=header&text=Mael%20Perrigaud&fontSize=70&fontAlignY=35&animation=twinkling&fontColor=ffffff" alt="Header" />
-</div>
-
-<div align="center">
-  
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Welcome+to+my+digital+universe!;Always+learning+new+technologies;Passionate+about+innovation;Let's+build+something+amazing!" alt="Typing SVG" />
-  
+  <pre>
+  ███╗   ███╗ █████╗ ███████╗██╗     
+  ████╗ ████║██╔══██╗██╔════╝██║     
+  ██╔████╔██║███████║█████╗  ██║     
+  ██║╚██╔╝██║██╔══██║██╔══╝  ██║     
+  ██║ ╚═╝ ██║██║  ██║███████╗███████╗
+  ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝
+  </pre>
+  <h3>💻 Polyvalent Developer</h3>
 </div>
 
 ### 👨‍💻 About Me
@@ -72,6 +74,6 @@
 
 <div align="center">
 
-  <img width="100%" height="120" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer" alt="Footer" />
-  
+  *"The best way to predict the future is to create it."* - Alan Kay
+
 </div>
