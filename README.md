@@ -1,8 +1,30 @@
-<h1 align="center">
-  👋 Hi, I'm Maël
-</h1>
+<div align="center">
+  <img width="100%" height="300" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=300&section=header&text=Maël%20Perrigaud&fontSize=70&fontAlignY=35&animation=twinkling&fontColor=ffffff" />
+</div>
 
-### 🛠 Tech Stack
+<div align="center">
+  
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Welcome+to+my+digital+universe!;Always+learning+new+technologies;Let's+build+something+amazing!" alt="Typing SVG" />
+
+</div>
+
+### 👨‍💻 About Me
+
+<p align="center">
+  🐧 Linux enthusiast who loves tinkering with different tools and environments<br>
+  ⚡ Always curious and eager to take on new challenges
+</p>
+
+### ❤️ My Passions
+
+<p align="center">
+  <img src="https://img.shields.io/badge/🏐_Kin--Ball_&_Tennis-228B22?style=for-the-badge&logoColor=white" alt="Kin-Ball & Tennis">
+  <img src="https://img.shields.io/badge/🎵_Music-9932CC?style=for-the-badge&logoColor=white" alt="Music">
+  <img src="https://img.shields.io/badge/🗺️_History_&_Geography-8B4513?style=for-the-badge&logoColor=white" alt="History & Geography">
+  <img src="https://img.shields.io/badge/💡_Innovation-FF6347?style=for-the-badge&logoColor=white" alt="Innovation">
+</p>
+
+### 🚀 Tech Arsenal
 
 <p align="center">
   <!-- Langages -->
@@ -11,7 +33,6 @@
   <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white" alt="C#">
   <img src="https://img.shields.io/badge/Python-FFD43B?style=flat-square&logo=python&logoColor=blue" alt="Python">
   <img src="https://img.shields.io/badge/Shell_Script-121011?style=flat-square&logo=gnu-bash&logoColor=white" alt="Bash">
-  <img src="https://img.shields.io/badge/Assembly-654FF0?style=flat-square&logo=assemblyscript&logoColor=white" alt="Assembly">
   <img src="https://img.shields.io/badge/Haskell-5D4F85?style=flat-square&logo=haskell&logoColor=white" alt="Haskell">
 </p>
 
@@ -24,19 +45,11 @@
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
 </p>
 
-<p align="center">
-  ~ 🔒 🛡️ 💻 🐍 🔍 🧩 ⚡ 🛠️ ~
-</p>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maelemiel/maelemiel/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maelemiel/maelemiel/output/github-snake.svg" />
   <img alt="github-snake" src="https://raw.githubusercontent.com/maelemiel/maelemiel/output/github-snake.svg" />
 </picture>
-
-<p align="center">
-  ~ 🔒 🛡️ 💻 🐍 🔍 🧩 ⚡ 🛠️ ~
-</p>
 
 ### 🔗 Connect with me
 
@@ -48,3 +61,16 @@
     <img src="https://img.shields.io/badge/Malt-FC5757?style=flat-square&logo=malt&logoColor=white" alt="Malt">
   </a>
 </p>
+
+### 🌐 Languages
+
+<p align="center">
+  🇫🇷 French (Native) • 🇬🇧 English (Proficient)
+</p>
+
+
+<div align="center">
+  
+  <img width="100%" height="120" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer" />
+  
+</div>
